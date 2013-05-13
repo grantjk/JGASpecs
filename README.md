@@ -1,0 +1,4 @@
+JGASpecs
+========
+
+Private Cocoapods specs

@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "git@github.com:grantjk/HMSEmberKit.git", :tag => s.version }
   s.platform     = :ios, '5.1'
   s.source_files = 'HMSEmberKit', 'HMSEmberKit/**/*.{h,m}'
-  s.framework  = 'CoreData'
+  s.frameworks   = 'CoreData'
   s.requires_arc = true
 
   s.dependency 'MagicalRecord'

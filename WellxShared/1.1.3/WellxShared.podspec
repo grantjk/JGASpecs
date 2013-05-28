@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.resources    = 'shared_resources/*', 'src/*.xib'
   s.requires_arc = true
 
-  s.dependency 'HMSEmberKit', '~> 2.0.3'
+  s.dependency 'HMSEmberKit', '~> 2.0.4'
   s.dependency 'AFNetworking'
   s.dependency 'SSKeychain'
 end

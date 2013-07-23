@@ -14,4 +14,11 @@ Pod::Spec.new do |s|
   s.dependency 'MagicalRecord'
   s.dependency 'AFNetworking'
   s.dependency 'ISO8601DateFormatter'
+
+  s.prefix_header_contents = <<-EOS
+#define MR_ENABLE_ACTIVE_RECORD_LOGGING 0
+#define MR_SHORTHAND
+#import CoreData+MagicalRecord.h
+
+EOS
 end

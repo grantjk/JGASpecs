@@ -19,6 +19,8 @@ Pod::Spec.new do |s|
 #define MR_ENABLE_ACTIVE_RECORD_LOGGING 0
 #define MR_SHORTHAND
 #import "CoreData+MagicalRecord.h"
+#import <SystemConfiguration/SystemConfiguration.h>
+#import <MobileCoreServices/MobileCoreServices.h>
 
 EOS
 end

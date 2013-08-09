@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency 'HMSEmberKit', '~> 2.1'
-  s.dependency 'AFNetworking'
+  s.dependency 'AFNetworking', '~> 1.3.1'
   s.dependency 'SSKeychain'
 
   s.prefix_header_contents = <<-EOS

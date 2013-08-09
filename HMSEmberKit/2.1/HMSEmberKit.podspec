@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency 'MagicalRecord'
-  s.dependency 'AFNetworking'
+  s.dependency 'AFNetworking', '~> 1.3.1'
   s.dependency 'ISO8601DateFormatter'
 
   s.prefix_header_contents = <<-EOS

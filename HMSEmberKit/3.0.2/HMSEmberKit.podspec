@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "HMSEmberKit"
-  s.version      = "3.0.1"
+  s.version      = "3.0.2"
   s.summary      = "A library to parse sideloaded JSON objects into Core Data. Relies on AFNetworking and MagicalRecord."
   s.homepage     = "https://github.com/grantjk/HMSEmberKit"
   s.license      = 'HMS ONLY'

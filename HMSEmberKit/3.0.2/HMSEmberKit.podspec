@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.frameworks   = 'CoreData'
   s.requires_arc = true
 
-  s.dependency 'MagicalRecord', '~> 2.1'
+  s.dependency 'MagicalRecord/Shorthand', '~> 2.1'
   s.dependency 'AFNetworking', '~> 1.3.2'
   s.dependency 'ISO8601DateFormatter', '~> 0.6'
 
